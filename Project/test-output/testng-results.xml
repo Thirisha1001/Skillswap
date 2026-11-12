@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-12T11:52:39 IST" name="Default suite" finished-at="2026-11-12T11:53:01 IST" duration-ms="21836">
+    <groups>
+    </groups>
+    <test started-at="2026-11-12T11:52:39 IST" name="Default test" finished-at="2026-11-12T11:53:01 IST" duration-ms="21836">
+      <class name="testpkg.SkillSwapTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpkg.SkillSwapTest@247310d0]" started-at="2026-11-12T11:52:39 IST" name="setUp" finished-at="2026-11-12T11:52:48 IST" duration-ms="9052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:testpkg.SkillSwapTest@247310d0]" started-at="2026-11-12T11:52:48 IST" name="loginTest" finished-at="2026-11-12T11:52:50 IST" duration-ms="2468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:2, instance:testpkg.SkillSwapTest@247310d0]" started-at="2026-11-12T11:52:50 IST" name="dashboardTest" finished-at="2026-11-12T11:52:51 IST" depends-on-methods="testpkg.SkillSwapTest.loginTest" duration-ms="826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="profileTest()[pri:3, instance:testpkg.SkillSwapTest@247310d0]" started-at="2026-11-12T11:52:51 IST" name="profileTest" finished-at="2026-11-12T11:52:53 IST" depends-on-methods="testpkg.SkillSwapTest.dashboardTest" duration-ms="1393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profileTest -->
+        <test-method signature="exploreTest()[pri:4, instance:testpkg.SkillSwapTest@247310d0]" started-at="2026-11-12T11:52:53 IST" name="exploreTest" finished-at="2026-11-12T11:52:54 IST" depends-on-methods="testpkg.SkillSwapTest.profileTest" duration-ms="1594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exploreTest -->
+        <test-method signature="viewProfileTest()[pri:5, instance:testpkg.SkillSwapTest@247310d0]" started-at="2026-11-12T11:52:54 IST" name="viewProfileTest" finished-at="2026-11-12T11:52:55 IST" depends-on-methods="testpkg.SkillSwapTest.exploreTest" duration-ms="986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewProfileTest -->
+        <test-method signature="requestsTest()[pri:6, instance:testpkg.SkillSwapTest@247310d0]" started-at="2026-11-12T11:52:55 IST" name="requestsTest" finished-at="2026-11-12T11:52:57 IST" depends-on-methods="testpkg.SkillSwapTest.viewProfileTest" duration-ms="1390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestsTest -->
+        <test-method signature="sessionsTest()[pri:7, instance:testpkg.SkillSwapTest@247310d0]" started-at="2026-11-12T11:52:57 IST" name="sessionsTest" finished-at="2026-11-12T11:52:57 IST" depends-on-methods="testpkg.SkillSwapTest.requestsTest" duration-ms="778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sessionsTest -->
+        <test-method signature="chatTest()[pri:8, instance:testpkg.SkillSwapTest@247310d0]" started-at="2026-11-12T11:52:57 IST" name="chatTest" finished-at="2026-11-12T11:52:58 IST" depends-on-methods="testpkg.SkillSwapTest.sessionsTest" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chatTest -->
+        <test-method signature="sendMessageTest()[pri:9, instance:testpkg.SkillSwapTest@247310d0]" started-at="2026-11-12T11:52:58 IST" name="sendMessageTest" finished-at="2026-11-12T11:52:59 IST" depends-on-methods="testpkg.SkillSwapTest.chatTest" duration-ms="1438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMessageTest -->
+        <test-method signature="logoutTest()[pri:10, instance:testpkg.SkillSwapTest@247310d0]" started-at="2026-11-12T11:52:59 IST" name="logoutTest" finished-at="2026-11-12T11:53:00 IST" depends-on-methods="testpkg.SkillSwapTest.sendMessageTest" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpkg.SkillSwapTest@247310d0]" started-at="2026-11-12T11:53:00 IST" name="tearDown" finished-at="2026-11-12T11:53:01 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testpkg.SkillSwapTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
